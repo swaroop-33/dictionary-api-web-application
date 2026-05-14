@@ -1,165 +1,53 @@
-🚀 Swaroop's Dictionary
+# Dictionary API Web Application
 
-A production-grade vocabulary intelligence platform built with React, optimized for performance, and deployed on Vercel.
+An interactive dictionary web application built using API integration and frontend web technologies for real-time word retrieval, definitions, pronunciation, and vocabulary exploration.
 
-Swaroop's Dictionary transforms a traditional word lookup tool into a habit-forming vocabulary system by combining search, pronunciation, image discovery, streak mechanics, and lightweight analytics — all in a modular, scalable frontend architecture.
+The application focuses on responsive user interaction, structured API workflows, and deployment-oriented web architecture.
 
-🌐 Live Demo:-
-https://swaroopdictionary.vercel.app
 
-✨ Core Features
+## Features
 
-🔎 Real-time English word search
+* Real-time word search functionality
+* API-based dictionary integration
+* Word definitions and meanings
+* Pronunciation support
+* Responsive frontend interface
+* Fast search interaction
+* Deployment-ready architecture
 
-📖 Definitions with contextual examples
 
-🔊 Pronunciation with audio playback
+## Tech Stack
 
-🔁 Synonyms & antonyms
+Frontend:
 
-🖼️ Contextual image discovery (Pexels API)
+* HTML
+* CSS
+* JavaScript
 
-🌙 Dark / Light theme with persistent state
+Deployment:
 
-🔥 Daily streak tracking system
+* Vercel
 
-📊 Built-in vocabulary analytics dashboard
+API Integration:
 
-📅 Deterministic “Word of the Day” logic
+* Dictionary API
 
-⚡ Lighthouse Performance 95+ (Production)
 
-🧠 Product Philosophy
+## Workflow Architecture
 
-Most dictionary apps are transactional.
+User Input → API Request → Dictionary API → Data Processing → UI Rendering → User Response
 
-This system introduces:
+## Application Preview
 
-Streak psychology → Encourages daily engagement
+<img width="643" height="971" alt="Screenshot 2026-05-14 101856" src="https://github.com/user-attachments/assets/8eb43ab4-a1bc-43d6-bc05-7d0f8e1de8a4" />
 
-Deterministic content logic → Consistent daily word generation
 
-Local analytics engine → Tracks usage without backend storage
 
-Performance-first UI → Fast initial render, deferred image loading
 
-The result:
-A lightweight vocabulary engagement platform — not just a lookup tool.
 
-🏗 Architecture & Engineering Decisions
-Modular Hook-Based Design
-Hook	Responsibility
-useDictionary	API orchestration & async state control
-useTheme	Persistent theme management
-useKeyboardFocus	Productivity shortcut (/ to focus)
-useVocabStreak	Daily streak computation engine
-useSearchHistory	Local search analytics & insights
 
-Why this architecture?
 
-Clear separation of concerns
 
-Scalable state management
 
-Easier debugging & maintainability
 
-Production-ready structure
 
-🔐 Secure API Design
-
-📘 Dictionary → Free Dictionary API
-
-🖼️ Images → Pexels API
-
-🔒 Serverless Edge Function proxy (Vercel)
-
-🔑 API key stored in environment variables
-
-🚫 No client-side exposure of secrets
-
-This demonstrates real-world secure frontend integration.
-
-⚡ Performance & Optimization
-
-Production Lighthouse Scores:
-
-🟢 Performance: 95+
-
-🟢 Accessibility: 96
-
-🟢 Best Practices: 100
-
-🟢 SEO: 90+
-
-Key optimizations:
-
-Non-blocking image fetch strategy
-
-Lazy loading + decoding="async"
-
-Memoized components
-
-Reduced re-renders
-
-CSS variable-based theming
-
-Optimized production build
-
-🛠 Tech Stack
-
-React (Vite)
-
-JavaScript (ES6+)
-
-Custom CSS (variables + responsive design)
-
-Vercel (Deployment + Edge Functions)
-
-Free Dictionary API
-
-Pexels API
-
-📦 Local Setup
-
-git clone https://github.com/swaroop-33/swaroop_dictionary.git
-
-cd swaroop_dictionary
-
-npm install
-
-Create a .env file:
-
-VITE_PEXELS_API_KEY=your_key_here
-
-Run development server:
-
-npm run dev
-
-Build production:
-
-npm run build
-npm run preview
-
-
-🎯 What This Project Demonstrates
-
-Scalable frontend architecture
-
-Secure third-party API integration
-
-Performance optimization mindset
-
-SEO configuration awareness
-
-Production debugging workflow
-
-Deployment & environment management
-
-👨‍💻 Author
-
-Swaroop
-
-
-Frontend Developer | React Engineer | Performance-Focused Builder
-
-⭐ If this project was interesting, consider starring the repository.
