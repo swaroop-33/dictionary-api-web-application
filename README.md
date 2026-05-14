@@ -41,6 +41,16 @@ User Input → API Request → Dictionary API → Data Processing → UI Renderi
 
 <img width="643" height="971" alt="Screenshot 2026-05-14 101856" src="https://github.com/user-attachments/assets/8eb43ab4-a1bc-43d6-bc05-7d0f8e1de8a4" />
 
+dictionary-api-web-application/
+│
+├── screenshots/
+├── assets/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+
 ## Live Demo
 
 https://swaroopdictionary.vercel.app/
