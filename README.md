@@ -45,6 +45,20 @@ User Input → API Request → Dictionary API → Data Processing → UI Renderi
 
 https://swaroopdictionary.vercel.app/
 
+## Local Setup
+
+```bash
+git clone https://github.com/swaroop-33/dictionary-api-web-application.git
+
+cd dictionary-api-web-application
+```
+## Future Improvements
+
+* Search history support
+* Dark mode integration
+* Multi-language support
+* AI-assisted vocabulary suggestions
+* Voice pronunciation enhancement
 
 
 
